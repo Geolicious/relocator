@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=relocator
+qgisMinimumVersion=2.0
+description=relocates all your project data to a specific location
+about=relocator uses your current qgis project and exports all your local layers to a desired directory and copy and adjust your current project file. Furthermore you can create a zip of your project for easy sharing.
+version=0.9
+author=Riccardo Klinger / Geolicious
+email=riccardo.klinger@geolicious.de
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+changelog= 2015/05/08 v.0.9 initial setup
+
+# Tags are comma separated with spaces allowed
+tags=folder, project, zip
+
+homepage=https://github.com/Geolicious/relocator
+tracker=https://github.com/Geolicious/relocator
+repository=https://github.com/Geolicious/relocator
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
